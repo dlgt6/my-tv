@@ -15,7 +15,7 @@ android {
         applicationId "com.lizongying.mytv"
         minSdk 21
         targetSdk 33
-        versionCode VersionCode()
+        versionCode 1
         versionName VersionName()
 
         // This block is different from the one you use to link Gradle
