@@ -32,7 +32,7 @@ jobs:
           releaseDirectory: app/build/outputs/apk/release
           alias: ${{ secrets.ALIAS }}
           signingKeyBase64: ${{ secrets.KEYSTORE }}
-           signingKeyFormat: PKCS12
+           signingKeyFormat: PKCS8
           keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
           keyPassword: ${{ secrets.ALIAS_PASSWORD }}
         env:
